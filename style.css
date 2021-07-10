@@ -67,3 +67,17 @@ input:checked + .slider::before {
 .slider.round::before {
   border-radius: 50%;
 }
+
+.container {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  height: 200xp;
+  width: auto;
+  margin: 10px;
+}
