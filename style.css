@@ -15,7 +15,6 @@ body {
 }
 img {
   display: block;
-  max-width: 100%;
 }
 .wrapper {
   max-width: 1200px;
@@ -92,4 +91,7 @@ input:checked + .slider::before {
 .one {
   grid-column: 1 / 3;
   grid-row: 1 / 5;
+}
+.img {
+  max-width: 100%;
 }
