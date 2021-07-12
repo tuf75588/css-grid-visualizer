@@ -19,6 +19,7 @@ img {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 1.2rem;
   text-align: center;
 }
 
@@ -76,16 +77,16 @@ input:checked + .slider::before {
 .container {
   border: 1px solid red;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 10px;
   margin-top: 1.2rem;
 }
 
 .item {
   border: 0.5px solid rgba(0, 0, 0, 0.2);
-  height: 200xp;
+
   width: auto;
-  margin: 10px;
 }
 
 .one {
