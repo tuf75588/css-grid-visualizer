@@ -97,3 +97,19 @@ input:checked + .slider::before {
 .img {
   max-width: 100%;
 }
+
+.bottom-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-wrapper h4 {
+  background-color: deeppink;
+  margin: 5px;
+  padding: 5px;
+}
+
+.bottom-wrapper h4:nth-child(2n) {
+  flex: 1;
+  text-align: center;
+}
